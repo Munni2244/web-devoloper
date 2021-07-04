@@ -1,0 +1,32 @@
+.bold{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px; 
+font-weight: 10;
+
+}
+.text{color: orange;}
+section{display: flex;}
+.box img{ 
+    width: 85%;
+}
+
+.link{text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+border-radius: 5px;
+font-weight: 700;
+padding: 10px 40px; 
+color: white;
+}
+.bg-change{ background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+body{margin: 0px;}
+.change img{ width: 80%;}
+.target{background-image:url(images/dream-bg.png) ; 
+background-repeat: no-repeat;
+background-position: right;
+}
+
+
+
