@@ -21,12 +21,58 @@ color: white;
     background-repeat: no-repeat;
 
 }
-body{margin: 0px;}
-.change img{ width: 80%;}
-.target{background-image:url(images/dream-bg.png) ; 
+
+
+.blur{
+    background-image: url(images/exp-bg.png);
+
+    background-repeat: no-repeat;
+    margin-top: 100px;
+   
+   }
+body{
+    margin: 0px;
+}
+.change{
+    background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
-background-position: right;
+    background-position: right;
+
+
+}
+.section{
+    color: orange;
+
 }
 
+.flexible-container{
+    display: flex;
+   
+}
 
+.box1{
 
+    width: 40%;
+    height: 300px;
+    margin-left: 5%;
+    box-shadow:10px 10px 40px gray  ;
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.box-border1{
+
+    border-left: 5px solid; 
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+.box-border2{
+
+    border-left: 5px solid;
+    border-image: linear-gradient( blue, cyan) ;
+    border-image-slice: 1;
+}
+footer p{ 
+    text-align: center;
+}
